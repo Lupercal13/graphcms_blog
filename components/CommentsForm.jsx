@@ -67,7 +67,7 @@ const CommentsForm = ({ slug }) => {
           formData.name = "";
           formData.email = "";
         }
-        formData.comment = " ";
+        formData.comment = "";
         setFormData((prevState) => ({
           ...prevState,
           ...formData,
