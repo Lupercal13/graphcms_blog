@@ -257,4 +257,3 @@ export const getRecentPosts = async () => {
 
   return result.posts;
 };
-
